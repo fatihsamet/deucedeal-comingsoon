@@ -6,8 +6,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'court-green': '#4CAF50',
-        'court-line': '#F4F4F4'
+        'court-green': '#1e4d2b',
+        'line-gray': '#dddddd'
+      },
+      backgroundImage: {
+        'tennis-court': "url('/court-bg.png')"
       }
     },
   },
