@@ -4,10 +4,10 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-tennis-court bg-cover bg-center text-white flex flex-col justify-center items-center px-4">
       <Head>
-        <title>DeuceDeal - Coming Soon</title>
+        <title>Korttayız - Coming Soon</title>
       </Head>
 
-      <img src="/logo.png" alt="DeuceDeal Logo" className="h-16 md:h-20 mb-6" />
+      <img src="/logo.png" alt="Korttayız Logo" className="h-20 md:h-24 mb-6" />
 
       <h1 className="text-4xl md:text-6xl font-extrabold text-center mb-4">GAME. SET. DEAL.</h1>
 
@@ -24,13 +24,7 @@ export default function Home() {
         E-posta ile haberdar ol
       </a>
 
-      <div className="flex gap-6 text-2xl">
-        <span>📸</span>
-        <span>🐦</span>
-        <span>💬</span>
-      </div>
-
-      <p className="text-sm mt-6 opacity-60">© 2025 DeuceDeal</p>
+      <p className="text-sm mt-6 opacity-60">© 2025 Korttayız</p>
     </div>
   );
 }
