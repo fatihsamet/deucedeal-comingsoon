@@ -6,8 +6,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'court-green': '#1e4d2b',
-        'line-gray': '#dddddd'
+        'court-green': '#1e4d2b'
       },
       backgroundImage: {
         'tennis-court': "url('/court-bg.png')"
